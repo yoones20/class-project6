@@ -13,4 +13,10 @@ corsur.execute ('''
             nubmer class INT
             name teacher TXT  
 ''')
+conn.commit()
+
+corsur.execute('''INSERT INTO madrese(id, fname, lname, age, number class, name teacher''')
+
+
+
 
