@@ -7,6 +7,10 @@ corsur = conn.cursor()
 corsur.execute ('''
             CREAT TABLE IF NOT EXIST madrese
             id INTEGER PRIMERY KEY
-            name TEXT NOT NUL
-            age INTEGER   
+            fname TEXT
+            lname TEXT 
+            age INTEGER
+            nubmer class INT
+            name teacher TXT  
 ''')
+
